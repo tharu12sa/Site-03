@@ -1,0 +1,9 @@
+.navbar-bg {
+  background-color: hsl(261, 51%, 51%) !important; 
+}
+
+.navbar-bt{
+    padding: 12px 24px; 
+  font-size: 18px;    
+  border-radius: 8px;
+}
