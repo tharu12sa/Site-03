@@ -18,3 +18,24 @@
 .custom-bg {
     background-color: #f5f7ff !important;
 }
+
+/* කාඩ් එකේ සාමාන්‍ය තත්ත්වය */
+.custom-anim-card {
+    transition: all 0.3s ease-in-out; /* ඇනිමේෂන් එක smooth වෙන්න */
+    cursor: pointer;
+}
+
+/* කාඩ් එක ඇතුළේ තියෙන අයිකනයට transition දීම */
+.custom-anim-card .bi {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Mouse එක කාඩ් එක උඩට ගෙනිච්චම වෙන වෙනස්කම් (Hover Effect) */
+.custom-anim-card:hover {
+    transform: translateY(-8px); /* කාඩ් එක පොඩ්ඩක් උඩට ඉස්සෙයි */
+}
+
+.custom-anim-card:hover .bi {
+    transform: scale(1.2); /* මවුස් එක තියද්දී අයිකනය විතරක් තවත් 20%ක් ලොකු වෙයි */
+}
