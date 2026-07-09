@@ -7,3 +7,14 @@
   font-size: 18px;    
   border-radius: 8px;
 }
+
+.hover-yellow:hover {
+    color: #e6fa08 !important; /* Text එකේ ඇතුළත සම්පූර්ණයෙන්ම කහ පාට කරයි */
+    -webkit-text-stroke: 0px transparent !important; /* කලින් තිබුණු කොළ/කහ outline එක අයින් කරයි */
+    cursor: pointer; /* මවුස් එක ගෙනිච්චම අතක ලකුණක් පෙන්වීමට */
+    transition: all 0.2s ease-in-out; /* පාට වෙනස් වීම සිනිඳුවට (smooth) සිදුවීමට */
+}
+ 
+.custom-bg {
+    background-color: #f5f7ff !important;
+}
