@@ -88,3 +88,31 @@
     border-top: 4px solid #de5506 !important;
 }
 
+
+
+/* Help Center බැජ් එකේ පාටවල් සහ සෙටින්ග්ස් */
+.faq-badge {
+    background-color: #5b92f2;
+    color: #000000; 
+    font-size: 0.75rem;
+    letter-spacing: 1px; /* අකුරු අතර පරතරය */
+    display: inline-block;
+}
+
+/* ප්‍රධාන මාතෘකාවේ අකුරු වල සයිස් එක */
+.faq-title {
+    font-size: 2.5rem;
+    font-weight: 900; /* අකුරු හොඳට මහතට (Extra Bold) ගන්න */
+    color: #111111;
+}
+
+/* "Questions" කියන වචනයට විතරක් යන කහ පාට */
+.text-warning-custom {
+    color: #ffc107; /* බූට්ස්ට්‍රැප් කහ පාට, ඔයාට ඕන නම් #ffcc00 වගේ තද කහ පාටක් දාන්නත් පුළුවන් */
+}
+
+/* යටින් තියෙන සිහින් අකුරු පේළිය */
+.faq-subtitle {
+    font-size: 1.05rem;
+    font-weight: 400;
+}
