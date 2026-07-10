@@ -38,3 +38,53 @@
 .custom-anim-card:hover .bi {
     transform: scale(1.2); /* මවුස් එක තියද්දී අයිකනය විතරක් තවත් 20%ක් ලොකු වෙයි */
 }
+
+
+
+
+/* කාඩ් එකේ පොදු පෙනුම (රවුම් දාර සහ smooth hover) */
+.custom-pricing-card {
+    border-radius: 16px !important;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* මවුස් එක ගෙනිච්චම කාඩ් එක පොඩ්ඩක් ඉස්සෙන්න */
+.custom-pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* අයිකන් එක වටේට එන රවුම හැදීම */
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem; /* අයිකන් එකේ සයිස් එක */
+}
+
+/* ලයිස්තුවේ පේළි අතර ඉඩ ප්‍රමාණය */
+.feature-list li {
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+    color: #495057;
+    display: flex;
+    align-items: center;
+}
+
+/* පළවෙනි කාඩ් එකේ උඩින් විතරක් එන නිල් පාට තීරුව */
+.border-top-black {
+    border-top: 4px solid #020009 !important;
+}
+
+.border-top-blue {
+    border-top: 4px solid #0657ed !important;
+}
+
+.border-top-red {
+    border-top: 4px solid #de5506 !important;
+}
+
